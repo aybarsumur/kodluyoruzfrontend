@@ -1,2 +1,3 @@
-# Ignore all .jpg files
+# Ignore all media files
 *.jpg
+*.png
