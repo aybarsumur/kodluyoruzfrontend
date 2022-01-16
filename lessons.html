@@ -1,0 +1,338 @@
+<h1 id="header">Kodluyoruz - Front - End</h1>
+<!-- aciklama yazıldı -->
+<!-- <h2>Deneme</h2>
+<h3>Aciklama kismina</h3> -->
+<h2>HTML</h2>
+
+<h3>Açıklamalarla Çalışmak</h3>
+<p>
+    asşldkals asşdlkaslşd asşlkasşldk
+</p>
+<p>Lorem ipsum, dolor sit amet consectetur </p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+<p>Lorem ipsum, dolor sit amet </p>
+<p>Lorem ipsum, dolor sit </p>
+<p>Lorem ipsum, dolor </p>
+
+<h3>Başlıklar ve Paragraflarla Çalışmak</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem <em> ipsum dolor </em> sit.</p>
+<!--em ile italik yazı yapılıyor-->
+<p>Lorem, <strong> dolor sit </strong>amet consectetur adipisicing.</p>
+<!--strong ile bold yazı yapılıyor-->
+
+<h2>Listeler</h2>
+<!--
+    Sıralı Listeler -> 1,2,3, ordered list ? -> ol
+    Sırasız Listeler -> *,*,*, unordered list ? -> ul
+    tüm liste tiplerinde kullanıcağımız liste öğesi -> list item -> li
+-->
+
+<h3>Ordered list</h3>
+<ol>
+    <li>Liste Öğesi *1*</li>
+    <li>Liste Öğesi *2*</li>
+    <li>Liste Öğesi *3*</li>
+</ol>
+
+<h3>Unordered list</h3>
+<ul>
+    <li>Liste Öğesi *1*</li>
+    <li>Liste Öğesi *2*</li>
+    <li>Liste Öğesi *3*</li>
+</ul>
+
+<h4>Çalışma</h4>
+<ol>
+    <li>Liste Öğesi *1*</li>
+    <li>Liste Öğesi *2*</li>
+    <li>Liste Özellikleri:
+        <ul>
+            <li>Liste Öğesi *1*</li>
+            <li>Liste Öğesi *2*</li>
+            <li>Liste Öğesi *3*</li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Emmet / Zen Coding</h2>
+<!--
+    etiket isimlerini direk verebiliyoruz
+    + kardeş element oluşturur
+    > içinde öğe oluşturur
+    ^ üstüne çıkmak ve öğe oluştur
+    * çarp -> kaç tana istiyoruz
+    lorem -> uzun yazı oluşturur
+    lorem4 -> 4 kelimelik anlamsız kelimeler üret
+    . -> class
+    # -> id
+-->
+
+<h3>Kardes element</h3>
+<p>Aynı hizzada ve iç içe geçmeğen öğeler kardeş elementdir. BU sayfada "HTML" yazısı ile "Emmet / Zen Coding" yazısı
+    kardeş elementtir.</p>
+
+<h4>Örnekler</h4>
+
+<!-- h1+p+p+h2+p+p+p+p -->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- h1+p*2+h2+p*3 -->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- ul>li*5 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!-- ul>li*3^p -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+
+<!-- ul>li*3^p*2+h3 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+<p></p>
+<h3></h3>
+
+<!-- ul>li*3>ul*2^^p*2+h3 -->
+<ul>
+    <li>
+        <ul></ul>
+        <ul></ul>
+    </li>
+    <li>
+        <ul></ul>
+        <ul></ul>
+    </li>
+    <li>
+        <ul></ul>
+        <ul></ul>
+    </li>
+</ul>
+<p></p>
+<p></p>
+<h3></h3>
+
+<!-- p>lorem6 -->
+<p>Lorem ipsum dolor sit amet consectetur.</p>
+
+<!-- ul>li*3>lorem1^^p*2>lorem4+h3>lorem1 -->
+<ul>
+    <li>Lorem.</li>
+    <li>Ratione?</li>
+    <li>Aperiam.</li>
+</ul>
+<p>
+    Lorem ipsum dolor sit.
+    <h3>Lorem.</h3>
+</p>
+<p>
+    Odit similique molestiae quaerat!
+    <h3>Earum.</h3>
+</p>
+
+<!-- h3. -->
+<h3 class=""></h3>
+
+<!-- h3.deneme>lorem2 -->
+<h3 class="deneme">Lorem, ipsum.</h3>
+
+<!-- h3#ideolussun>Lorem3 -->
+<h3 id="ideolussun">Lorem, ipsum dolor.</h3>
+
+<!-- h3.deneme#idolussun>Lorem4 -->
+<h3 class="deneme" id="idolussun">Lorem ipsum dolor sit.</h3>
+
+<!-- h3.kodluyoruz.hmtl>Lorem2 -->
+<h3 class="kodluyoruz hmtl">Lorem, ipsum.</h3>
+
+<!-- .tepki -->
+<div class="tepki"></div>
+
+<!-- .li.item*4 -->
+<div class="li item"></div>
+<div class="li item"></div>
+<div class="li item"></div>
+<div class="li item"></div>
+
+<!-- ul>li.tepki -->
+<ul>
+    <li class="tepki"></li>
+</ul>
+
+<!-- div>p#item*6>lorem10 -->
+<div>
+    <p id="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, esse.</p>
+    <p id="item">Odio fugit quia dolorem veniam ut ullam vel, laboriosam deleniti.</p>
+    <p id="item">Laborum tempore deserunt distinctio vel possimus! Quae quasi minima quaerat.</p>
+    <p id="item">Tempore incidunt earum vel nisi cumque et amet commodi consequatur.</p>
+    <p id="item">Corrupti maxime dolorum ex, explicabo asperiores aliquid ad quibusdam iure.</p>
+    <p id="item">Ratione officia, odio nam similique atque velit sed exercitationem in.</p>
+</div>
+
+<!-- ul>li.item$*4  -->
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+</ul>
+
+<!-- ul>.tepki -->
+<ul>
+    <li class="tepki"></li>
+</ul>
+
+<ul>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+</ul>
+
+<h2>Gorsellerle Calismak</h2>
+<!-- img -->
+
+<!-- proje dosyası içine kaydedilmiş bir resmin kullanımı -->
+<img width="200" src="images/1.jpg" alt="Okyanus ve palmiyeler">
+
+<!-- web üzerinden bir resmin kullanımı -->
+<img src="https://picsum.photos/200/300" alt="">
+
+<img src="https://picsum.photos/600/300" alt="">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZOVEZs1bxdZbKeIaMzF9n9FV7duh9NVL5MA&usqp=CAU" alt="">
+
+<img src="https://assets.ubuntu.com/v1/e1d3143f-laptop.png" alt="Ubuntu Gorseli">
+
+<div>
+
+    <h2>
+        <a href="#">Block Element</a>
+    </h2>
+
+    <h2>Linkler ile Calismak</h2>
+    <!--
+    -baska bir web sitesine git
+    -baska bir sayfaya git
+    -ayni sayfa icinde bir yere -> ID bilgisine git
+    -mail at
+    -telefon et
+    -->
+
+    <ul>
+        <li>
+            <!--bulunduğu sayfada gidilecek sayfaya gider-->
+            <a href="https://kodluyoruz.org">kodluyoruz sayfasina git</a>
+        </li>
+        <li>
+            <!--boş bir sayfada gidilecek sayfaya gider-->
+            <a href="https://kodluyoruz.org" target="_blank">kodluyoruz sayfasina yeni bir sayfada git</a>
+        </li>
+        <li>
+            <!--bu proje içinde başka bir sayfaya git-->
+            <a href="iletisim.html">
+                Iletisim Sayfasina Git
+            </a>
+        </li>
+        <li>
+            <!--bu sayfada başka bir yere git-->
+            <a href="#header">
+                Sayfa Basina Git
+            </a>
+        </li>
+        <li>
+            <!-- mail atma -->
+            <a href="mailto:info@kodluyoruz.org">
+                kodluyoruz'a mail at
+            </a>
+        </li>
+        <li>
+            <!-- telefon açma -->
+            <a href="tel:4440444">
+                Telefon ac
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<br>
+
+<p>
+    Span: Lorem ipsum dolor <b> sit amet consectetur </b> adipisicing elit. <span style="color: red;"> Quas rem eius
+        recusandae, iste tempore soluta reprehenderit </span> iusto modi eveniet. Libero!
+</p>
+
+<hr>
+<!--çizgi yapar-->
+
+<!--hem koyu hem italik yazı-->
+<p><strong><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rem?</em></strong></p>
+
+<br>
+
+<p>Aşağıdaki logoya tiklaninca siteye gidiyor</p>
+<a href="https://kodluyoruz.org" target="_blank">
+    <img src="images/kodluyoruz.png" alt="kodluyoruz logo">
+</a>
+
+<!--Etiketler özellikleri-->
+<!--
+    id: her etikette sadece 1 tane id olabilir ve mutlaka bu id unique olmalı, başka bir yerde geçmiyor olmalı, idde boşluk olmamalı
+    class: istediğin kadar sınıf olabilir
+    istediğin kadar etiket kullanabilirsin
+-->
+
+<img class="" src="" alt="">
+<a id="ikiKelimeBoslukluOlamaz" class="birinci-sinif ikinc-sinif" data-id="" href=""></a>
+<div class="" id="" data-section=""></div> <!--data-section burada benim oluşturduğum özel bir etiket-->
+
+<!-- HTML Yapısı -->
+<!--
+    Doctype : sayfanın hangi programlama dilinde yazıldığı
+    lang : sayfanın içinde hangi dilde yazılar olacağı tr,en,fr...
+    head: browser ilk açılışta öğrenmek istediği konular. karakter seti, meta viewpost ilk açıldığında nasıl açılacağını söylüyor, title web sitesi başlığı
+    body: tüm yapılacak içeriklerin olması gereken kısım
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<h2>CSS</h2>
+<h2>Bootstrap</h2>
