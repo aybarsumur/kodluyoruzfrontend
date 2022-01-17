@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- Internal CSS -->
+    <!-- <style>
+        h2 {
+            color: red;
+            font-size: 64px
+        }
+        p {
+            color:green;
+            font-size: 30px
+        }
+    </style> -->
+
+    <!-- Kullanılacak Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/kodluyoruz.css">
+</head>
+
+<body>
+    <!-- 
+        CSS : (Cascading Style Sheets) basamaklı stil şablonu . Önemli olan bir diğer unsur, daha düzenli bir proje yapısı oluşturabilimek için dosyaların kendi türleri ile birlikte muhafazası. Bunun için bir css klasörü oluşturuyoruz ve bu tür dosyaları birlikte saklıyoruz.
+        Üç tip css vardır;
+            Inline CSS -> etiket icinde style kullanimi. bir etikette ufak bir deşiklik yapmak için kullanmak doğru(en son bakılan olduğu için burada yaptığın değişiklik internaldakini ezer)
+            Internal CSS -> Dosya içinde css gibi düşünebilirsin. Head içinde style etiketinde yapılır.
+            External CSS -> Proje Klasörü içinde bir dosya oluşturup oradan css tanımları yapabiliriz. Yada bir internette bir dosyayı hedef gösterebiliriz.Head içinde link belirtilerek yazılır . Birkere tanımlanır, her yerde kullanılır.
+    -->
+    <!-- inline css : property + value , çok daha detaya w3school dan bak -->
+    <h1 style="color: deeppink;font-size: 64px;">CSS Deneme - Inline CSS</h1>
+    <h2>Internal CSS</h2>
+    <p style="color: blue;font-size: 20px;">Lorem ipsum dolor sit.</p>
+    <p style="color: yellowgreen">Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    <ul>
+        <li>Lorem.</li>
+        <li>Sint.</li>
+        <li>Illum.</li>
+        <li>Numquam?</li>
+    </ul>
+
+    <!-- CLASS VE ID İLE CSS ÇALIŞMASI -->
+
+    <!-- h1.fs-30.text-red  ( Emmet Kullanımı ) -->
+    <h1 class="ft-30 text-red">Lorem.</h1>
+    
+    <article id="first-article">
+        <h1>Lorem, ipsum dolor.</h1>
+        <h2>Lorem, ipsum.</h2>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Quo optio deleniti alias.</p>
+        <p>Impedit velit temporibus magnam!</p>
+    </article>
+    <article>
+        <h1 class="fs-30 text-red">Id, excepturi nam.</h1>
+        <h2>Ipsam, temporibus?</h2>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Accusamus odit magnam reprehenderit!</p>
+        <p>Cupiditate laboriosam corporis nihil.</p>
+    </article>
+    <article>
+        <h1>Nisi, harum ea?</h1>
+        <h2>Aliquam, aliquid.</h2>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Corporis eius sequi impedit?</p>
+        <p>Aliquid natus quam quasi!</p>
+    </article>
+</body>
+
+</html>
